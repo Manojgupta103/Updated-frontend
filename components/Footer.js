@@ -29,7 +29,7 @@ const Foot = () => {
         <div className="flex flex-col mt-[50px] max-[1008px]:justify-center max-[1008px]:items-center">
           <h1>Social Links</h1>
           <div className="flex gap-3">
-          <Image src='/Group (1).png' width={30} height={30} className="h-6 w-6" alt="img" ></Image>
+          <Image src='/Group.png' width={30} height={30} className="h-6 w-6" alt="img" ></Image>
           <Image src='/Vector (5).png' width={30} height={30} className="h-6 w-6" alt="img" ></Image>
           </div>
         </div>
