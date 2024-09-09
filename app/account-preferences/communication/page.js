@@ -11,7 +11,7 @@ const Communication = () => {
   return (
     <>
       {!isHome && <Navbar />}
-      <div className='py-10 px-6 md:px-16 lg:px-32 bg-slate-100 w-full'>
+      <div className='py-10 px-6 md:px-16 lg:px-16 bg-slate-100 w-full'>
         <div className="text-2xl md:text-4xl lg:text-6xl font-semibold">
           Communication
         </div>
