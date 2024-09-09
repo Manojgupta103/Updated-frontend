@@ -12,12 +12,12 @@ export default function Home({ children }) {
   return (
     <>
       {!isHome && <Navbar />} 
-      <div className="py-10 px-4 sm:px-8 md:px-16 lg:px-20 bg-slate-100 w-full">
+      <div className="py-10 px-4 sm:px-8 md:px-16 lg:px-16 bg-slate-100 w-full">
         <div className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-semibold">
           Account Preferences
         </div>
 
-        <div className="bg-white w-full md:w-[1623px] lg:w-[1623px] xl:w-[1623px] h-auto lg:h-[370px] xl:h-[400px] mt-10 rounded-[20px] md:rounded-[40px] lg:rounded-[60px] xl:rounded-[80px] flex flex-col shadow-xl">
+        <div className='text-lg sm:text-xl md:text-2xl text-black lg:text-3xl xl:text-4xl w-full h-[223px] sm:h-[70px] md:h-[423px] lg:h-[423px] xl:h-[423px] mt-6 sm:mt-8 md:mt-10 mb-6 sm:mb-8 md:mb-[50px] lg:mb-[80px] xl:mb-[109px] bg-white rounded-[20px] sm:rounded-[25px] md:rounded-[30px] lg:rounded-[45px] xl:rounded-[60px] shadow-xl flex flex-col p-4 sm:p-4 md:p-6 lg:p-0 '>
           <Link href='/account-preferences/language' className="h-full px-5 md:px-10 lg:px-16 xl:px-24 flex items-center text-xl md:text-2xl lg:text-4xl xl:text-5xl border-b border-black/50 w-full hover:bg-[#017BFC] hover:text-white hover:rounded-[20px] md:hover:rounded-[40px] lg:hover:rounded-[60px] xl:hover:rounded-[80px] hover:border-none hover:cursor-pointer transition-all duration-300 ease-in-out">
             Language
           </Link>

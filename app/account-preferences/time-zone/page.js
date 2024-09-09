@@ -21,7 +21,7 @@ const Time = () => {
           Time Zone
         </div>
 
-        <div className="bg-white w-full px-4 md:px-6 lg:px-10 border lg:w-[1603px] h-auto lg:h-[121px] mt-10 rounded-[20px] md:rounded-[40px] lg:rounded-[60px] flex flex-col shadow-xl mb-[40px] md:mb-[80px] lg:mb-[108px]">
+        <div className='text-lg sm:text-xl md:text-2xl text-black lg:text-3xl xl:text-4xl w-full h-[75px] sm:h-[70px] md:h-[423px] lg:h-[423px] xl:h-[123px] mt-6 sm:mt-8 md:mt-10 mb-6 sm:mb-8 md:mb-[50px] lg:mb-[80px] xl:mb-[109px] bg-white rounded-[20px] sm:rounded-[25px] md:rounded-[30px] lg:rounded-[45px] xl:rounded-[60px] shadow-xl flex flex-col p-4 sm:p-4 md:p-6 lg:p-8 '>
           <div className='h-full py-4 flex items-center justify-between text-xl md:text-2xl lg:text-4xl border-black/50 w-full'>
             <span>IST (GMT +5:30)</span>
             <div className='w-6 h-6 md:w-8 md:h-8 lg:w-8 lg:h-8 relative'>
