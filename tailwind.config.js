@@ -16,6 +16,9 @@ module.exports = {
         lightBlue: '#B3D9FF',
         blue: '#0080FF',
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(90.62deg, #B3D9FF 0.54%, #0080FF 99.5%)',
+      },
     },
   },
   plugins: [],
