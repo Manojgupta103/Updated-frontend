@@ -1,0 +1,17 @@
+.customBackground {
+    background-image: url("/backgroundImage.png");
+    background-repeat: no-repeat;
+    background-size:cover; /* Optional: to cover the whole page */
+  }
+  
+  @media (max-width: 1024px) {
+    .customBackground {
+      background-image: url("/backgroundImage.png");
+      background-repeat: no-repeat;
+      background-size:auto; /* Optional: to cover the whole page */
+  
+    }
+  }
+  
+  
+  
