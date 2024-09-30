@@ -2,7 +2,6 @@
 "use client";
 
 import Link from 'next/link';
-// import styles from "./app/(auth)/doctor/page.module.css";
 import styles from "@/app/(auth)/login/doctor/page.module.css";
 import { useState } from "react";
 import Image from "next/image";
