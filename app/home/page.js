@@ -38,7 +38,7 @@ const Home = () => {
               <Link href='/find-doctors' className='hover:font-bold hover:cursor-pointer transition-all ease-in-out'>Find Doctor</Link>
             </div>
           </div>
-          <Link href='/login/doctor' className='hidden lg:flex w-[268px] h-[71px] rounded-[60px] bg-[linear-gradient(93.55deg,_#00D7CF_-2.63%,_#53A7FF_109.66%)] text-white hover:font-bold transition-all duration-200 ease-out  justify-center items-center 2xl:text-[30px] xl:text-[25px]'>
+          <Link href='/login' className='hidden lg:flex w-[268px] h-[71px] rounded-[60px] bg-[linear-gradient(93.55deg,_#00D7CF_-2.63%,_#53A7FF_109.66%)] text-white hover:font-bold transition-all duration-200 ease-out  justify-center items-center 2xl:text-[30px] xl:text-[25px]'>
             Log in/Register
           </Link>
         </div>
