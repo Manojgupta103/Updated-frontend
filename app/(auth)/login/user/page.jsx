@@ -7,16 +7,18 @@ import styles from "@/app/(auth)/login/doctor/page.module.css";
 import { useState } from "react";
 import Image from "next/image";
 import React from "react";
+import { useRouter } from 'next/navigation';
 
 export default function LoginForm() {
-  const [fullname, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
+  const router = useRouter();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted:", { fullname, email, password });
+    console.log("Form submitted:", {email, password });
+    router.push('/authenticated/user');
   };
 
   return (
