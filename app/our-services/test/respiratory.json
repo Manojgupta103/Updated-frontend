@@ -1,0 +1,16 @@
+{
+  "Respiratory": [
+    {
+      "name": "PSA",
+      "icon": "/icons/psa.png",
+      "hoverIcon": "/icons/psa-hover.png",
+      "centerName": "PSA Diagnostic Center"
+    },
+    {
+      "name": "Chest X Ray",
+      "icon": "/icons/chest-xray.png",
+      "hoverIcon": "/icons/chest-xray.png",
+      "centerName": "X Ray Diagnostic Center"
+    }
+  ]
+}

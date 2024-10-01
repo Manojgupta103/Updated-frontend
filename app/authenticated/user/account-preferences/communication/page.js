@@ -11,27 +11,27 @@ const Communication = () => {
   return (
     <>
       {!isHome && <Navbar />}
-      <div className='py-10 px-6 md:px-16 lg:px-32 bg-slate-100 w-full'>
-        <div className="text-6xl font-semibold">
+      <div className='py-10 px-6 md:px-16 lg:px-16 bg-slate-100 w-full'>
+        <div className="text-2xl md:text-4xl lg:text-6xl font-semibold">
           Communication
         </div>
 
-        <div className='bg-white w-full px-6 lg:px-10 border lg:w-[1603px] h-[244px] mt-10 rounded-[60px] flex flex-col shadow-xl'>
-          <div className='h-full py-4 flex items-center justify-between text-4xl border-b border-black/50 w-full'>
+        <div className='text-lg sm:text-xl md:text-2xl text-black lg:text-3xl xl:text-4xl w-full h-[153px] sm:h-[70px] md:h-[423px] lg:h-[423px] xl:h-[323px] mt-6 sm:mt-8 md:mt-10 mb-6 sm:mb-8 md:mb-[50px] lg:mb-[80px] xl:mb-[109px] bg-white rounded-[20px] sm:rounded-[25px] md:rounded-[30px] lg:rounded-[45px] xl:rounded-[60px] shadow-xl flex flex-col p-4 sm:p-4 md:p-6 lg:p-8 '>
+          <div className='h-full py-4 flex items-center justify-between text-xl md:text-2xl lg:text-4xl border-b border-black/50 w-full'>
             <span>E-mail Notifications</span>
             <label className="relative flex items-center justify-center">
               <input type="radio" name="communication" className="sr-only peer" />
-              <div className="w-8 h-8 rounded-full border-8 border-black/50 cursor-pointer flex items-center justify-center peer-checked:border-[#017BFC] transition-all duration-300 ease-in-out">
-                <div className="w-3 h-3 rounded-full bg-[#017BFC] scale-0 peer-checked:scale-100 transition-all duration-300 ease-in-out"></div>
+              <div className="w-6 h-6 md:w-8 md:h-8 rounded-full border-[6px] md:border-8 border-black/50 cursor-pointer flex items-center justify-center peer-checked:border-[#017BFC] transition-all duration-300 ease-in-out">
+                <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-[#017BFC] scale-0 peer-checked:scale-100 transition-all duration-300 ease-in-out"></div>
               </div>
             </label>
           </div>  
-          <div className='h-full py-4 flex items-center justify-between text-4xl border-black/50 w-full'>
+          <div className='h-full py-4 flex items-center justify-between text-xl md:text-2xl lg:text-4xl border-black/50 w-full'>
             <span>SMS Notifications</span>
             <label className="relative flex items-center justify-center">
               <input type="radio" name="communication" className="sr-only peer" />
-              <div className="w-8 h-8 rounded-full border-8 border-black/50 cursor-pointer flex items-center justify-center peer-checked:border-[#017BFC] transition-all duration-300 ease-in-out">
-                <div className="w-3 h-3 rounded-full bg-[#017BFC] scale-0 peer-checked:scale-100 transition-all duration-300 ease-in-out"></div>
+              <div className="w-6 h-6 md:w-8 md:h-8 rounded-full border-[6px] md:border-8 border-black/50 cursor-pointer flex items-center justify-center peer-checked:border-[#017BFC] transition-all duration-300 ease-in-out">
+                <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-[#017BFC] scale-0 peer-checked:scale-100 transition-all duration-300 ease-in-out"></div>
               </div>
             </label>
           </div>  

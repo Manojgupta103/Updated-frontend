@@ -1,0 +1,16 @@
+{
+  "Genetic": [
+    {
+      "name": "Genetics",
+      "icon": "/icons/genetics.png",
+      "hoverIcon": "/icons/genetics-hover.png",
+      "centerName": "Genetic Diagnostic Center"
+    },
+    {
+      "name": "Amniocentesis",
+      "icon": "/icons/amniocentesis.png",
+      "hoverIcon": "/icons/amniocentesis.png",
+      "centerName": "Amniocentesis Diagnostic Center"
+    }
+  ]
+}

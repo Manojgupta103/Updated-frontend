@@ -1,0 +1,16 @@
+{
+  "Endocrine": [
+    {
+      "name": "A1C Test",
+      "icon": "/icons/a1c-test.png",
+      "hoverIcon": "/icons/a1c-test-hover.png",
+      "centerName": "Endocrine Diagnostic Center"
+    },
+    {
+      "name": "Cortisol",
+      "icon": "/icons/cortisol.png",
+      "hoverIcon": "/icons/cortisol-hover.png",
+      "centerName": "E"
+    }
+  ]
+}

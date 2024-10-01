@@ -23,7 +23,7 @@ const Navbar = () => {
 
         <div className='hidden md:flex px-10 text-[30px] border-2 border-[#94C8FD] w-[631px] h-[98px] rounded-[60px] justify-between items-center bg-[#94C8FD]'>
           <Link href='/home' className='hover:font-bold hover:cursor-pointer transition-all ease-in-out'>Home</Link>
-          <Link href='/services' className='hover:font-bold hover:cursor-pointer transition-all ease-in-out'>Our Services</Link>
+          <Link href='/our-services' className='hover:font-bold hover:cursor-pointer transition-all ease-in-out'>Our Services</Link>
           <Link href='/find-doctors' className='hover:font-bold hover:cursor-pointer transition-all ease-in-out'>Find Doctor</Link>
         </div>
       </div>

@@ -1,0 +1,28 @@
+{
+  "Cardiac": [
+    {
+      "name": "ECG/EKG",
+      "icon": "/icons/ecg-ekg.png",
+      "hoverIcon": "/icons/ecg-ekg-hover.png",
+      "centerName": "Center D"
+    },
+    {
+      "name": "Echocardiogram",
+      "icon": "/icons/Echocardiogram.png",
+      "hoverIcon": "/icons/Echocardiogram.png",
+      "centerName": "Center A"
+    },
+    {
+      "name": "Stress Test",
+      "icon": "/icons/stress-test.png",
+      "hoverIcon": "/icons/stress-test.png",
+      "centerName": "Center E"
+    },
+    {
+      "name": "Holter Monitor",
+      "icon": "/icons/holter-monitor.png",
+      "hoverIcon": "/icons/holter-monitor.png",
+      "centerName": "Center F"
+    }
+  ]
+}
