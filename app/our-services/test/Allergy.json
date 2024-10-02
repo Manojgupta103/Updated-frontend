@@ -1,0 +1,16 @@
+{
+  "Allergy": [
+    {
+      "name": "Skin Prick",
+      "icon": "/icons/skin-prick.png",
+      "hoverIcon": "/icons/skin-prick-hover.png",
+      "centerName": "Allergy Diagnostic Center"
+    },
+    {
+      "name": "Blood Allergy",
+      "icon": "/icons/blood-allergy.png",
+      "hoverIcon": "/icons/blood-allergy.png",
+      "centerName": "Blood Test Center"
+    }
+  ]
+}

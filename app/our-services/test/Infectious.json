@@ -1,0 +1,28 @@
+{
+  "Infectious": [
+    {
+      "name": "COVID-19",
+      "icon": "/icons/covid-19.png",
+      "hoverIcon": "/icons/covid-19-hover.png",
+      "centerName": "Infectious Disease Diagnostic Center"
+    },
+    {
+      "name": "HIV",
+      "icon": "/icons/hiv.png",
+      "hoverIcon": "/icons/hiv.png",
+      "centerName": "HIV Diagnostic Center"
+    },
+    {
+      "name": "Hepatitis Panel",
+      "icon": "/icons/hepatitis-panel.png",
+      "hoverIcon": "/icons/hepatitis-panel.png",
+      "centerName": "Hepatitis Diagnostic Center"
+    },
+    {
+      "name": "Strep Test",
+      "icon": "/icons/strep-test.png",
+      "hoverIcon": "/icons/strep-test.png",
+      "centerName": "Strep Test Diagnostic Center"
+    }
+  ]
+}

@@ -25,13 +25,13 @@ export default function setting() {
       <div className='p-5 sm:p-10 bg-slate-100 w-full flex justify-center items-center relative'>
         <div className='border-2 bg-white shadow-xl border-white h-auto sm:h-[554px] w-full sm:w-[611px] rounded-[30px] sm:rounded-[60px] flex flex-col items-center gap-5 sm:gap-10 justify-center'>
           <div className='border-b-2 flex items-center text-black justify-center border-black/50 w-full sm:w-[476px] h-[80px] sm:h-[123px] text-3xl sm:text-5xl text-center hover:bg-[#017BFC] hover:rounded-[30px] sm:hover:rounded-[60px] hover:cursor-pointer hover:border-none hover:w-full hover:text-white transition-all duration-300 ease-in-out'>
-            <Link href='/notifications'>Notifications</Link>
+            <Link href='./notifications'>Notifications</Link>
           </div>
           <div className='border-b-2 flex items-center text-black justify-center border-black/50 w-full sm:w-[476px] h-[80px] sm:h-[123px] text-3xl sm:text-5xl text-center hover:bg-[#017BFC] hover:rounded-[30px] sm:hover:rounded-[60px] hover:cursor-pointer hover:border-none hover:w-full hover:text-white transition-all duration-300 ease-in-out'>
-            <Link href='/security-settings'>Security Settings</Link>
+            <Link href='./security-settings'>Security Settings</Link>
           </div>
           <div className='border-b-2 flex items-center text-black justify-center border-black/50 w-full sm:w-[476px] h-[80px] sm:h-[123px] text-3xl sm:text-5xl text-center hover:bg-[#017BFC] hover:rounded-[30px] sm:hover:rounded-[60px] hover:cursor-pointer hover:border-none hover:w-full hover:text-white transition-all duration-300 ease-in-out'>
-            <Link href='/account-preferences'>Account Preferences</Link>
+            <Link href='./account-preferences'>Account Preferences</Link>
           </div>
           <div
             className='border-b-2 flex items-center text-black justify-center border-black/50 w-full sm:w-[476px] h-[80px] sm:h-[123px] text-3xl sm:text-5xl text-center hover:bg-[#F8312F] hover:rounded-[30px] sm:hover:rounded-[60px] hover:cursor-pointer hover:border-none hover:w-full hover:text-white mb-5 sm:mb-10 transition-all duration-300 ease-in-out'
