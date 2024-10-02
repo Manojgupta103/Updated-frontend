@@ -94,7 +94,7 @@ const Diagnostic = () => {
             return (
               <div key={item.name}>
                 <button
-                  className="flex min-w-[150px] bg-[#B2D9FF] rounded-3xl hover:bg-blue-500 hover:text-white"
+                  className="flex min-w-[150px] bg-[#B2D9FF] rounded-3xl hover:bg-blue-500 hover:text-white hover:bg-blue"
                   onClick={() => handleCategoryClick(item)}
                 >
                   <div className="h-[60px] w-[60px] flex justify-center items-center bg-[white] rounded-full relative right-3">

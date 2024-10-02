@@ -124,7 +124,7 @@ const Imaging = () => {
                         className={`h-6 w-6 ${
                           i < item.ratings
                             ? hoveredCenter === index
-                              ? "text-white"
+                              ? "text-[#FFC224]"
                               : "text-[#FFC224]"
                             : "text-[#8B8B8B]"
                         }`}

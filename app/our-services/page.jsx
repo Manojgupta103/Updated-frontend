@@ -41,7 +41,7 @@ const ServiceComponent = () => {
               <h3 className="text-lg font-medium mt-4">Consultation</h3>
               <button
                 className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4"
-                onClick={() => handleButtonClick("/consultation")}
+                onClick={() => handleButtonClick("our-services/consultation")}
               >
                 Book Now
               </button>
@@ -75,7 +75,7 @@ const ServiceComponent = () => {
               <h3 className="text-lg font-medium mt-4">Operation Center</h3>
               <button
                 className="bg-[#00CFFF] text-white py-2 px-4 rounded-full mt-4"
-                onClick={() => handleButtonClick("/operation")}
+                onClick={() => handleButtonClick("our-services/operation")}
               >
                 Book Now
               </button>
