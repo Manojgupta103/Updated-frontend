@@ -1,0 +1,54 @@
+{
+  "doctors": [
+    {
+      "name": "Dr. Vivian Monore",
+      "type": "Gastroentrologist (GI)",
+      "image":"/695205240b29d20fd3da3ec99636d35c.jpeg",
+      "experience":9
+
+    },
+    {
+      "name": "Dr. Usmaan",
+      "type": "Dentist",
+      "image":"/3fd7ff69ba2bc50cfa0b979f76d92fbb.jpeg",
+      "experience":12
+    },
+    {
+      "name": "Dr. Micky Will",
+      "type": "Cardiologist",
+      "image":"/9a550bd872945d455420da142f0642e7.jpeg",
+      "experience":9
+    },
+    {
+      "name": "Dr. Shane Warn",
+      "type": "ENT Specialist",
+      "image":"/9fdbc4863a2843121b1dedaf4518246e.jpeg",
+      "experience":5
+    },
+    {
+      "name": "Dr. Wang Doe",
+      "type": "Neurologist",
+      "image":"/9fdbc4863a2843121b1dedaf4518246e.jpeg",
+      "experience":7
+    },
+    {
+      "name": "Dr. Emily",
+      "type": "Pediatrician",
+      "image":"/336d8e1819c7512cca52d33ab385dfa4.jpeg",
+      "experience":8
+    },
+    {
+      "name": "Dr. King",
+      "type": "Pediatrician",
+      "image":"/9fdbc4863a2843121b1dedaf4518246e.jpeg",
+      "experience":4
+    },
+    {
+        "name":"Dr. Ragini",
+        "type":"Orthopedics",
+        "image":"/3e8a876397d14126e66850b7c34eec49.jpeg",
+        "experience":3
+    }
+  ]
+}
+
