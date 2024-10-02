@@ -129,8 +129,8 @@ const ServiceComponent = () => {
                 Why Choose Us?
               </div>
             </div>
-            <h1 className="font-nunito w-[719px] text-[24px] lg:text-[40px] font-bold mb-2">
-              We're the Right Choice <br className="hidden lg:block " /> for Your
+            <h1 className="font-nunito w-[719px] text-[15px] lg:text-[40px] font-bold mb-2">
+              We're the Right Choice <br className="hidden lg:block" /> for Your
               Healthcare
             </h1>
             <p className="font-nunito text-base lg:text-small font-semibold text-black mb-4">
