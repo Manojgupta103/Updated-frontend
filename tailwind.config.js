@@ -3,10 +3,14 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./DoctorComponents/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
+      fontFamily: {
+        mukta: ['Mukta','sans-serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -19,6 +23,9 @@ module.exports = {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90.62deg, #B3D9FF 0.54%, #0080FF 99.5%)',
       },
+      width: {
+        'w-1/10' : '10%',
+      }
     },
   },
   plugins: [],
