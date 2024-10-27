@@ -1,8 +1,5 @@
+"use client"
 import React, { useState, useEffect } from "react"; 
-import plusicon from "@/assets/plusicon.png"
-import searchicon from "@/assets/searchicon.png"
-import filtericon from "@/assets/filtericon.png"
-import questionicon from "@/assets/questionicon.png"
 
 const patientsDashboard = () => {
   const [patients, setPatients] = useState([]);
@@ -150,16 +147,16 @@ const patientsDashboard = () => {
         </h2>
         <div className="md:mt-0 mt-4 md:mb-0 mb-4 flex space-x-4 mr-5">
           <button>
-          <img src={plusicon} alt="Add Icon" className="" />
+          <img src="/doctor/plusicon.png" alt="Add Icon" className="" />
           </button>
           <button>
-          <img src={searchicon} alt="Search Icon" className="" />
+          <img src="/doctor/searchicon.png" alt="Search Icon" className="" />
           </button>
           <button>
-          <img src={filtericon} alt="Filter Icon" className="" />
+          <img src="/doctor/filtericon.png" alt="Filter Icon" className="" />
           </button>
           <button>
-          <img src={questionicon} alt="More Info" className="" />
+          <img src="/doctor/questionicon.png" alt="More Info" className="" />
           </button>
         </div>
       </div>
@@ -191,8 +188,8 @@ const patientsDashboard = () => {
                     {patient.status}
                   </span>
                 </td>
-                <td className="px-4 font-mukta py-2">{patient.lastappointment}</td>
-                <td className="px-4 font-mukta py-2">{patient.nextappointment}</td>
+                <td className="px-4 font-mukta py-2">{patient.lastAppointmentDate}</td>
+                <td className="px-4 font-mukta py-2">{patient.nextAppointmentDate}</td>
                 <td className="px-4 font-mukta py-2">
                   <button className="px-2 py-1 font-mukta text-lg rounded-lg">...</button>
                 </td>
@@ -217,14 +214,12 @@ const patientsDashboard = () => {
 // Helper function to get the Tailwind class for status with exact styling
 const getStatusClass = (status) => {
   switch (status) {
-    case "Working":
+    case "Recovered":
       return "bg-green-100 text-green-500";
-    case "Left":
+    case "Awaiting Surgery":
       return "bg-blue-100 text-blue-400";
-    case "Terminated":
+    case "On Treatment":
       return "bg-red-100 text-red-500";
-    case "On Leave":
-      return "bg-yellow-100 text-yellow-500";
     default:
       return "bg-gray-100 text-gray-500";
   }
