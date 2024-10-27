@@ -8,6 +8,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+      },
       fontFamily: {
         mukta: ['Mukta','sans-serif'],
       },
@@ -19,6 +23,8 @@ module.exports = {
       colors: {
         lightBlue: '#B3D9FF',
         blue: '#0080FF',
+        background: "var(--background)",
+        foreground: "var(--foreground)",
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90.62deg, #B3D9FF 0.54%, #0080FF 99.5%)',
