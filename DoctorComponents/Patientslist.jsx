@@ -181,7 +181,7 @@ const patientsDashboard = () => {
                 <td className="px-4 font-mukta py-2">{patient.diagnosis}</td>
                 <td className="px-4 font-mukta py-2">
                   <span
-                    className={`w-[90px] font-mukta inline-flex items-center justify-center px-3 py-1 rounded-full text-sm ${getStatusClass(
+                    className={`w-[150px] font-mukta inline-flex items-center justify-center px-3 py-1 rounded-full text-sm ${getStatusClass(
                       patient.status
                     )}`}
                   >
@@ -217,7 +217,7 @@ const getStatusClass = (status) => {
     case "Recovered":
       return "bg-green-100 text-green-500";
     case "Awaiting Surgery":
-      return "bg-blue-100 text-blue-400";
+      return "bg-[#b2d1ff] text-blue";
     case "On Treatment":
       return "bg-red-100 text-red-500";
     default:

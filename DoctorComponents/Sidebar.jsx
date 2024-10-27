@@ -40,28 +40,28 @@ const Sidebar = () => {
             </li>
 
             <li onClick={toggleSidebar}>
-              <Link href="doctor/schedule" className={`${pathname === '/doctor/schedule' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
+              <Link  href="/authenticated/doctor/schedule" className={`${pathname === '/authenticated/doctor/schedule' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
                 <CiCalendar className="mr-3 text-2xl" />
                 Schedule
               </Link>
             </li>
 
             <li onClick={toggleSidebar}>
-              <Link href="doctor/tasks" className={`${pathname === '/doctor/tasks' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
+              <Link href="/authenticated/doctor/tasks" className={`${pathname === '/authenticated/doctor/tasks' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
                 <BsClipboard2Check className="mr-3 text-2xl" />
                 Tasks
               </Link>
             </li>
 
             <li onClick={toggleSidebar}>
-              <Link href="doctor/patients-list" className={`${pathname === '/doctor/patients' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
+              <Link href="/authenticated/doctor/patients-list" className={`${pathname === '/authenticated/doctor/patients-list' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
                 <BsPeople className="mr-3 text-2xl" />
                 Patients
               </Link>
             </li>
 
             <li onClick={toggleSidebar}>
-              <Link href="doctor/messages" className={`${pathname === '/doctor/messages' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4 relative`}>
+              <Link href="/authenticated/doctor/messages" className={`${pathname === '/authenticated/doctor/messages' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4 relative`}>
                 <RxEnvelopeClosed className="mr-3 text-2xl" />
                 Messages
                 {/* Notification Badge */}
@@ -70,7 +70,7 @@ const Sidebar = () => {
             </li>
 
             <li onClick={toggleSidebar}>
-              <Link href="doctor/analytics" className={`${pathname === '/doctor/analytics' ? 'text-[#22246d] border-[#22246d] ' : 'text-gray-600 border-white'} flex items-center py-2 border-l-4 pl-4`}>
+              <Link href="/authenticated/doctor/analytics" className={`${pathname === '/authenticated/doctor/analytics' ? 'text-[#22246d] border-[#22246d] ' : 'text-gray-600 border-white'} flex items-center py-2 border-l-4 pl-4`}>
                 <SlChart className="mr-3 text-2xl" />
                 Analytics
               </Link>
@@ -87,14 +87,14 @@ const Sidebar = () => {
           <h3 className="text-gray-500 uppercase text-sm mb-4 ml-2">General</h3>
           <ul>
             <li onClick={toggleSidebar} className='mb-4'>
-              <Link href="doctor/settings" className={`${pathname === '/settings' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
+              <Link href="/authenticated/doctor/settings" className={`${pathname === '/authenticated/doctor/settings' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
                 <IoSettingsOutline className="mr-3 text-2xl" />
                 Settings
               </Link>
             </li>
             
             <li onClick={toggleSidebar}>
-              <Link href="doctor/support" className={`${pathname === '/doctor/support' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
+              <Link href="/authenticated/doctor/support" className={`${pathname === '/authenticated/doctor/support' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
                 <MdContactSupport className="mr-3 text-2xl" />
                 Support
               </Link>
