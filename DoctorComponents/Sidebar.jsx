@@ -87,7 +87,7 @@ const Sidebar = () => {
           <h3 className="text-gray-500 uppercase text-sm mb-4 ml-2">General</h3>
           <ul>
             <li onClick={toggleSidebar} className='mb-4'>
-              <Link href="doctor/settings" className={`${pathname === '/doctor/settings' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
+              <Link href="doctor/settings" className={`${pathname === '/settings' ? 'text-[#22246d] border-[#22246d]' : 'text-gray-600 border-white hover:text-[#22246d]'} flex items-center py-2 border-l-4 pl-4`}>
                 <IoSettingsOutline className="mr-3 text-2xl" />
                 Settings
               </Link>
