@@ -1,0 +1,75 @@
+{
+    "patients": [
+      {
+        "name": "Mary Joseph",
+        "diagnosis": "Stroke",
+        "status": "Recovered",
+        "lastAppointmentDate": "2024-09-20",
+        "nextAppointmentDate": "2024-12-15"
+      },
+      {
+        "name": "John Smith",
+        "diagnosis": "Heart Disease",
+        "status": "Awaiting Surgery",
+        "lastAppointmentDate": "2024-10-05",
+        "nextAppointmentDate": "2024-11-01"
+      },
+      {
+        "name": "Ava Brown",
+        "diagnosis": "Diabetes",
+        "status": "On Treatment",
+        "lastAppointmentDate": "2024-08-15",
+        "nextAppointmentDate": "2024-11-10"
+      },
+      {
+        "name": "Liam Johnson",
+        "diagnosis": "Kidney Stone",
+        "status": "Recovered",
+        "lastAppointmentDate": "2024-07-10",
+        "nextAppointmentDate": "2024-10-20"
+      },
+      {
+        "name": "Emma Davis",
+        "diagnosis": "Hypertension",
+        "status": "On Treatment",
+        "lastAppointmentDate": "2024-09-22",
+        "nextAppointmentDate": "2024-12-01"
+      },
+      {
+        "name": "Olivia Wilson",
+        "diagnosis": "Anemia",
+        "status": "Awaiting Surgery",
+        "lastAppointmentDate": "2024-10-14",
+        "nextAppointmentDate": "2024-11-20"
+      },
+      {
+        "name": "Noah Martinez",
+        "diagnosis": "Asthma",
+        "status": "On Treatment",
+        "lastAppointmentDate": "2024-09-10",
+        "nextAppointmentDate": "2024-11-05"
+      },
+      {
+        "name": "Sophia Clark",
+        "diagnosis": "Thyroid Disorder",
+        "status": "Recovered",
+        "lastAppointmentDate": "2024-06-30",
+        "nextAppointmentDate": "2024-12-15"
+      },
+      {
+        "name": "James Rodriguez",
+        "diagnosis": "Arthritis",
+        "status": "On Treatment",
+        "lastAppointmentDate": "2024-08-25",
+        "nextAppointmentDate": "2024-11-18"
+      },
+      {
+        "name": "Mia Garcia",
+        "diagnosis": "Back Pain",
+        "status": "Awaiting Surgery",
+        "lastAppointmentDate": "2024-09-05",
+        "nextAppointmentDate": "2024-10-30"
+      }
+    ]
+  }
+  
